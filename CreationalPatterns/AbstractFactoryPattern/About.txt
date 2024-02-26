@@ -1,0 +1,48 @@
+Abstract Factory Pattern
+-----------------------------
+
+Abstract Factory Pattern is a creational design pattern.
+Similar to Factory Pattern but with an added layer of abstraction.
+This pattern is used when we want to produce families of related objects
+Without specifying concrete class.
+
+Its like factory of factories.
+
+Use case
+--------
+Suppose you own a Sports Factory - Nike.
+You create Shoes and Shirts of this brand in the factory.
+For creating Shoes and Shirts, 
+
+Suppose in future,
+You acquire another company - Adidas.
+
+In Adidas as well, 
+you will manufacture Shoes and Shirts.
+
+But the code, for setting up a 
+Sports factory
+Creation of shes and shirts was written specific to Nike.
+
+This will create a problem.
+As we need to again write entire code for setting up Shoes, Shirts and entire factory
+For Adidas seperately.
+This code could have been common between Adidas and Nike.
+Just a few modifications according to brand.
+
+solution
+---------
+Create a Factory class ISportsFactory
+Which will have methods to create Shoes and Shirts.
+Code for creating these items can be written in seperate factories.
+
+So whenever you create a new brand.
+Just create object of ISportsFactory.
+It will automatically get code for creating shoes and shirts.
+
+For brand-specific shoes and shirts
+Derive objects from ShoesFactory and ShirtsFactory as per current brand.
+
+
+
+
