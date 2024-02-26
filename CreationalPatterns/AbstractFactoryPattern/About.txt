@@ -43,6 +43,23 @@ It will automatically get code for creating shoes and shirts.
 For brand-specific shoes and shirts
 Derive objects from ShoesFactory and ShirtsFactory as per current brand.
 
+------------------------------------------
 
+The Factory pattern deals with creating objects of a single type, 
+while the Abstract Factory pattern deals with creating objects of related types. 
+
+In Factory Pattern Example
+We just wanted to Manufacture a Gun.
+
+In Abstract Factory Pattern
+We want to create products of related types.
+Sports = Shoe + Shirt
+
+Nike Brand = Nike Shirt and Nike Shoes
+Adidas Brand = Adidas Shirt and Adidas Shoes
+
+
+The Factory pattern is easier to implement and maintain, 
+but the Abstract Factory pattern is more scalable and extensible.
 
 
