@@ -1,0 +1,28 @@
+Factory Pattern
+----------------
+
+Factory method is a creational design pattern 
+which solves the problem of creating product objects 
+without specifying their concrete classes.
+
+Problem
+--------
+Imagine you have a weapon factory.
+Initially, you build only AK 47 in your factory.
+So all the required code for creating a Gun is inside AK-47 struct.
+
+But now, the company grows, and you get orders to create different guns
+Like M16.
+
+But now your entire code for creating a Gun is inside AK-47.
+In this case, you need to shift the entire codebase now.
+And suppose in future you get orders for another Gun type, lets say Pistol
+Then shifting codebases.
+Writing redundant code will be unmanageable.
+
+solution
+--------
+As a solution, create a single struct/ class
+Gun, which will have common methods for creating all sorts of Guns.
+This Gun can be derived to create different Guns.
+
