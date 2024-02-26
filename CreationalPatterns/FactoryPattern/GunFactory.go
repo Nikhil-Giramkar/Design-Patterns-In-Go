@@ -12,5 +12,5 @@ func getGun(GunType string) (IGun, error) {
 		return createM16(), nil
 	}
 
-	return nil, fmt.Errorf("Wrong gun type passed")
+	return nil, fmt.Errorf("wrong gun type passed")
 }
