@@ -1,0 +1,16 @@
+The Builder pattern is used when the desired product is complex and requires multiple steps to complete.
+ In this case, several construction methods would be simpler than a single monstrous constructor. 
+
+ Builder is a creational design pattern that lets you construct complex objects step by step. 
+ The pattern allows you to produce different types and representations of an object using the same construction code.
+
+
+For example, imagine a builder that builds everything from wood and glass, 
+a second one that builds everything with stone and iron and a third one that uses gold and diamonds. 
+By calling the same set of steps, you get a regular house from the first builder, 
+a small castle from the second and a palace from the third. 
+However, this would only work if the client code that calls the building steps is able to interact with builders using a common interface.
+
+
+The director class defines the order in which to execute the building steps, 
+ while the builder provides the implementation for those steps.
