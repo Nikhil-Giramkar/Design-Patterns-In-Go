@@ -1,0 +1,9 @@
+Prototype is a creational design pattern that allows cloning objects, 
+even complex ones, without coupling to their specific classes.
+
+The Prototype pattern delegates the cloning process to the actual objects that are being cloned. 
+The pattern declares a common interface for all objects that support cloning. 
+
+In this example,
+We mocked the Copy-Paste option we have on File Explorer.
+Where we can create an exact copy of all folders and its nested items 
