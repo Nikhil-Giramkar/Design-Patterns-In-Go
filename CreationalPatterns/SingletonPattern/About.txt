@@ -1,0 +1,10 @@
+Just like a global variable, 
+the Singleton pattern lets you access some object from anywhere in the program. 
+However, it also protects that instance from being overwritten by other code.
+
+Example
+---------
+In our app, we might have multiple features.
+Each feature has to perform some action on Database.
+So instead of creating seperate instances of DB for each feature.
+We can create a single instance and use it across the application.
