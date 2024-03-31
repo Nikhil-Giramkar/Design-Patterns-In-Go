@@ -1,0 +1,12 @@
+Adapter is a structural design pattern, 
+which allows incompatible objects to collaborate.
+
+
+Adapters can not only convert data into various formats but can also help objects with different interfaces collaborate. 
+Here’s how it works:
+ - The adapter gets an interface, compatible with existing objects.
+     --> PayPalAdapter / AmazonAdapter
+ - Using this interface, the existing object can safely call the adapter’s methods. 
+    --> processPayment()
+ - Upon receiving a call, the adapter passes the request to the second object, but in a format and order that the second object expects. 
+    ---> makePayment() / payAmazon() 
