@@ -1,0 +1,13 @@
+Decorator is a structural pattern that allows 
+adding new behaviors to objects dynamically by placing them 
+inside special wrapper objects, called decorators.
+
+In this example,
+We have base pizza.
+We can wrap it in other structs to get additional properties like
+Base + Tomato
+Base + Tomato + Cheese
+Base + Cheese
+By wrapping them inside other decorators.
+
+It makes very re-usable code as we are just adding wrappers around existing objects.
