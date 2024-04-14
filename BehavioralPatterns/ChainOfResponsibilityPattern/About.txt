@@ -1,0 +1,15 @@
+Chain of Responsibility is behavioral design pattern that 
+allows passing request along the chain of potential handlers until one of them handles request.
+
+Here, Whenever any patient arrives, 
+they first get to Reception, 
+then to Doctor, 
+then to Medicine Room, 
+and then to Cashier (and so on). 
+The patient is being sent through a chain of departments, 
+where each department sends the patient further down the chain once their function is completed.
+
+Useful case is when you want to decouple the client from receivers—
+the client will only need to know the first element in the chain.
+
+Its just like Middlewares which process one after the other...
