@@ -1,0 +1,6 @@
+Iterator is a behavioral design pattern 
+that allows sequential traversal through a complex data structure 
+without exposing its internal details.
+
+Here, we iterated over products collection
+Just using hasNext() and getNext()
