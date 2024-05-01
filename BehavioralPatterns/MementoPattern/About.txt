@@ -1,0 +1,12 @@
+Memento is a behavioral design pattern 
+that allows making snapshots of an object’s state and restoring it in future.
+
+The Memento doesn’t compromise the internal structure of the object it works with, 
+as well as data kept inside the snapshots.
+
+Here, we took the real-world example of Virtual Machines
+Where VM is the originator and contains current state
+
+Snapshots are Memento which are saved time to time in SnapshotManager
+
+We can restore any snapshot and override the current state of VM
