@@ -6,7 +6,7 @@ Design patterns are typical solutions to commonly occurring problems in software
 <p>
 Design patterns are a toolkit of tried and tested solutions to common problems in software design. Even if you never encounter these problems, knowing patterns is still useful because it teaches you how to solve all sorts of problems using principles of object-oriented design.
 </p>
-
+<hr>
 <p>
 Design Patterns can be classified in 3 sections
 <li>
@@ -21,7 +21,7 @@ Design Patterns can be classified in 3 sections
 <b>Behavioral patterns</b> take care of effective communication and the assignment of responsibilities between objects.
 </li>
 </p>
-
+<hr>
 <p>
 In this repository, I have tried to cover some important design patterns.<br>
 <li> 
@@ -55,3 +55,22 @@ In this repository, I have tried to cover some important design patterns.<br>
 </ol>
 </li>
 </p>
+<hr>
+
+## How to run
+Open the last folder in folder structure in terminal <br>
+Example:
+```
+   cd BehavioralPatterns\MementoPattern
+```
+Then run the command: 
+```
+  go run .
+```
+You will see the output in terminal.
+<hr>
+
+## Credits
+References taken from https://refactoring.guru/design-patterns/go <br>
+You can study more design patterns in different programming languages from here.
+<hr>
