@@ -68,6 +68,8 @@ Then run the command:
   go run .
 ```
 You will see the output in terminal.
+
+Go through the About.txt file in each folder, to relate with code.
 <hr>
 
 ## Credits
