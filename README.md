@@ -20,5 +20,32 @@ Design Patterns can be classified in 3 sections
 <li>
 <b>Behavioral patterns</b> take care of effective communication and the assignment of responsibilities between objects.
 </li>
+</p>
 
+<p>
+In this repository, I have tried to cover some important design patterns.<br>
+<li> 
+<b>Creational Pattern<b>
+<li> Factory Pattern </li>
+<li> Abstract Factory Pattern </li>
+<li> Singleton Pattern </li>
+<li> Builder Pattern </li>
+<li> Prototype Pattern </li>
+</li>
+
+<li> 
+<b>Structural Pattern<b>
+<li> Adapter Pattern </li>
+<li> Decorator Factory Pattern </li>
+<li> Composite Pattern </li>
+<li> Facade Pattern </li>
+</li>
+
+<li> 
+<b>Behavorial Pattern<b>
+<li> Chain Of Responsibility Pattern </li>
+<li> Observer Pattern </li>
+<li> Iterator Pattern </li>
+<li> Memento Pattern </li>
+</li>
 </p>
